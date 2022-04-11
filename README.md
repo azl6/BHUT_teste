@@ -5,10 +5,14 @@
 
 ## Tecnologias usadas:
 
-+ Java
++ Java 11
 + Spring Framework
++ Bean Validation
 + Docker
 + MySQL
++ Prometheus 
++ Grafana
++ Junit
 
 ## Como rodar a aplicação?
 
@@ -39,7 +43,7 @@ select * from log;
 
 ## Features
 
-+ <b>Validações de entrada:</b> Ao tentar realizar uma entrada com dados inválidos ou incompletos, o projeto retorna, precisamente, onde está o problema, por meio de uma lista de excessões personalizadas.
++ <b>Validações de entrada:</b> Ao tentar realizar uma entrada com dados inválidos ou incompletos, o projeto retorna, precisamente, onde está o problema, por meio de uma lista de exceções personalizadas.
 
 ![exceptions](https://user-images.githubusercontent.com/80921933/162630779-51abab25-eb3a-470d-8a22-fb3afeb2f714.png)
 
