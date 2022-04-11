@@ -64,6 +64,8 @@ select * from log;
 
 ![grafana](https://user-images.githubusercontent.com/80921933/162645200-dbff2fc7-2326-41cc-8113-4a31310ee62f.png)
 
++ <b>Boas práticas:</b> O projeto segue boas práticas de programação. Dentre elas, destaco a utilização do Data Transfer Object (DTO) para Requests e Responses. Desta forma, organizamos o código, realizando operações de banco de dados na entidade e validações/respostas na camada DTO.
+
 ## Pontos a melhorar
 
 + Por algum motivo, não consegui receber o id gerado no MongoDB da BHUT em minha resposta do POST. Desta forma, a tabela `log` fica com as colunas "null". Tentei outras alternativas para realizar a requisição, como o Spring Webflux, mas, infelizmente, não consegui resolver esse problema.
