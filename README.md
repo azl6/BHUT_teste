@@ -27,6 +27,8 @@ docker-compose up -d
 ## Acesso a tabela log
 
 Como o ambiente da aplicação sobe via docker-compose, o MySQL é um contêiner, e para acessar a tabela `log`, deve-se executar os seguintes comandos:
+
+<b>IMPORTANTE:</b> Caso esteja utilizando o Git Bash, substitua o primeiro comando por `winpty docker exec -it mysql mysql -uroot -proot`
 ```
 docker exec -it mysql mysql -uroot -proot
 use teste_bhut;
